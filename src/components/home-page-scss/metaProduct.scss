@@ -1,0 +1,40 @@
+.eachProd {
+	width: 100%;
+}
+
+.eachProdFlex {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+}
+
+.eachProdBox {
+	display: grid;
+	grid-template-rows: auto auto auto;
+	gap: 10px;
+    margin-top: 4em;
+}
+
+.eachProdBoxes {
+    // text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+}
+
+.eachProdTitle {
+    text-align: center;
+}
+
+.prodTitle {
+	color: var(--body-header-color);
+	font-weight: 600;
+}
+
+.shopNowBtn {
+    background-color: transparent;
+    color: var(--primary-blue);
+    border: 2px solid #d9dde1;
+    margin-top: 2em;
+}
