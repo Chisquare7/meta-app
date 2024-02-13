@@ -1,0 +1,29 @@
+.diveBottom {
+    margin-top: 1em;
+    background-color: #FBCCD2;
+    border-radius: 10px;
+}
+
+.diveTop {
+    background-color: #E6F2FF;
+    border-radius: 10px;
+}
+
+.diveImages {
+    margin-top: 3em;
+}
+
+.heroBtnFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rowBtn + .rowBtn {
+    margin-left: 1em;
+}
+
+.circleRight {
+    background-color: var(--primary-white);
+}

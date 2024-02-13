@@ -4,6 +4,7 @@ import Button from "../Button";
 import rightArrow from "../../assets/rightArrow.svg";
 import metaVR from "../../assets/metaPhoto1desk.png"
 import metaVR2 from "../../assets/metaPhoto2desk.png"
+import "../home-page-scss/diveInto.scss";
 
 const diveInto = () => {
 	return (
@@ -11,7 +12,7 @@ const diveInto = () => {
 			<div className="container">
 				<div>
 					<div>
-						<div>
+						<div className="diveTop">
 							<div>
 								<div className="pageHeading VR-head">
 									<h1>Dive into VR with Meta Quest 2</h1>
@@ -28,7 +29,7 @@ const diveInto = () => {
 											Add to bag
 										</Button>
 									</div>
-									<div className="circleRight">
+									<div className="circleRight rowBtn">
 										<img
 											src={rightArrow}
 											alt="right arrow icon"
@@ -42,7 +43,7 @@ const diveInto = () => {
 									</div>
 								</div>
 							</div>
-							<div>
+							<div className="diveImages">
 								<Link>
 									<img src={metaVR} alt="VR icon" />
 								</Link>
@@ -50,7 +51,7 @@ const diveInto = () => {
 						</div>
 					</div>
 					<div>
-						<div>
+						<div className="diveBottom">
 							<div>
 								<div className="pageHeading VR-head">
 									<h1>Do more in style with Ray-Ban | Meta</h1>
@@ -67,7 +68,7 @@ const diveInto = () => {
 											Shop all styles
 										</Button>
 									</div>
-									<div className="circleRight">
+									<div className="circleRight rowBtn">
 										<img
 											src={rightArrow}
 											alt="right arrow icon"
@@ -81,7 +82,7 @@ const diveInto = () => {
 									</div>
 								</div>
 							</div>
-							<div>
+							<div className="diveImages">
 								<Link>
 									<img src={metaVR2} alt="VR icon" />
 								</Link>

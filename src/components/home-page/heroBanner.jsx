@@ -25,8 +25,12 @@ const heroBanner = () => {
 							Add to bag
 						</Button>
 					</div>
-					<div className="circleRight">
-						<img src={rightArrow} alt="right arrow icon" className="rightArrow" />
+					<div className="circleRight rowBtn">
+						<img
+							src={rightArrow}
+							alt="right arrow icon"
+							className="rightArrow"
+						/>
 					</div>
 					<div className="heroBtnRight rowBtn">
 						<Button type="button" className="learnBtn">

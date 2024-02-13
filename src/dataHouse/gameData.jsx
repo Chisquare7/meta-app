@@ -7,22 +7,22 @@ import gameFive from "../assets/metaQuest.webp";
 export const GameItems = [
 	{
 		image: gameOne,
-		title: "Meta Quest",
+		title: "Roblox",
 	},
 	{
 		image: gameTwo,
-		title: "Meta Quest accessories",
+		title: "Asgard's Wrath 2",
 	},
 	{
 		image: gameThree,
-		title: "Meta Quest mixed reality",
+		title: "Peacock",
 	},
 	{
 		image: gameFour,
-		title: "Ray-Ban | Meta smart glasses",
+		title: "Supernatural",
 	},
 	{
 		image: gameFive,
-		title: "Ray-Ban | Meta smart glasses",
+		title: "Meta Quest +",
 	},
 ];

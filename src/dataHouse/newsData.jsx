@@ -9,7 +9,7 @@ export const NewsItems = [
 	},
 	{
 		image: newsTwo,
-		title: "Ray-Ban | Meta Smart Glasses Collection",
+		title: "Introducing the Next-Generation Ray-Ban | Meta Smart Glasses Collection",
 	},
 	{
 		image: newsThree,

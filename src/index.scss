@@ -100,9 +100,6 @@ img {
 	-webkit-text-size-adjust: 100%;
 
 	// Colors
-	// --gray-600: #3f3f3f;
-	// --gray-500: #454545;
-	// --gray-100: #c5c5c5;
 	--primary-white: #ffffff;
 	--primary-blue: #1d65c1;
 	--light-purple: #6441d2;
@@ -167,7 +164,7 @@ button {
 .heroBtnFlex {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .heroBtnRight {
@@ -177,7 +174,7 @@ button {
 }
 
 .rowBtn + .rowBtn {
-    margin-left: 1.5em;
+    margin-left: 1em;
 }
 
 

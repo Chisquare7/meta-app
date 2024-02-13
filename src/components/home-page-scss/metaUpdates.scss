@@ -1,0 +1,59 @@
+.updateHeading {
+	margin-top: 1em;
+}
+
+.updateHead {
+	color: var(--body-text-color);
+	font-weight: 400;
+}
+
+.updateBtn {
+    width: 100%;
+}
+
+.updateInput {
+  position: relative;
+  margin: 1em 0;
+}
+
+.inputField {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease-in-out;
+}
+
+.floating-label {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  font-size: 16px;
+  color: var(--body-text-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.inputField.active + .floating-label,
+.inputField:focus + .floating-label {
+  top: 2px;
+  left: 10px;
+  font-size: 14px;
+  color: #007bff;
+}
+
+.updateBtn {
+    background-color: transparent;
+    color: var(--body-text-color);
+    border: 2px solid #d9dde1;
+    font-size: 1.25rem;
+}
+
+.bottomUpdate p {
+    color: var(--body-text-color);
+    font-size: .7rem;
+    font-weight: 400;
+}
+
+.bottomUpdate .middleText {
+    margin: 1em 0;
+}

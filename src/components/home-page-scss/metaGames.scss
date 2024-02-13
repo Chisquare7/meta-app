@@ -1,3 +1,7 @@
+.gameContainer {
+    margin-bottom: 4em;
+}
+
 .exploreContainer {
 	text-align: center;
 	width: 95%;
@@ -5,12 +9,69 @@
 }
 
 .gamesBtnContainer {
-    margin: 3em 0;
+	margin: 3em 0;
 }
 
 .gamesBtn {
-    background-color: transparent;
-    color: var(--primary-blue);
-    border: 2px solid #d9dde1;
-    
+	background-color: transparent;
+	color: var(--primary-blue);
+	border: 2px solid #d9dde1;
+}
+
+.swiper-container {
+	position: relative;
+	overflow: hidden;
+	width: calc(100% - 20px);
+	float: right;
+    border: 1px solid #d9dde1;
+}
+
+.swiper-wrapper {
+	display: flex;
+	transition: transform 0.3s ease-in-out;
+}
+
+.swiper-slide {
+	flex: 0 0 auto;
+}
+
+.prev,
+.next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: none;
+	border: none;
+	font-size: 24px;
+	color: #fff;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.prev {
+	left: 10px;
+}
+
+.next {
+	right: 10px;
+}
+
+.eachGamesBox {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em 3em;
+    border: 1px solid #d9dde1;
+}
+
+.metaGamesImg {
+    width: 20rem;
+}
+
+.eachGamesTitle {
+    margin-top: 1em;
+}
+
+.eachGamesTitle > h3 {
+    color: var(--body-text-color);
+    font-weight: 400;
 }
